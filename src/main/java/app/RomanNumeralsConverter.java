@@ -2,10 +2,15 @@ package app;
 
 public class RomanNumeralsConverter {
     public String convert(int decimal) {
-        if (decimal == 1)
-            return "I";
-        else if (decimal == 2)
-            return "II";
-      return "";
+        switch (decimal) {
+            case 1:
+                return "I";
+            case 2:
+                return "II";
+            case 3:
+                return "III";
+            default:
+                return "";
+        }
     }
 }
