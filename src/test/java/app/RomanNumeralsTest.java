@@ -27,4 +27,9 @@ public class RomanNumeralsTest {
         String result = converter.convert(3);
         assertEquals("III", result);
     }
+    @Test
+    public void shouldConvert5ToV() {
+        String result = converter.convert(5);
+        assertEquals("V", result);
+    }
 }

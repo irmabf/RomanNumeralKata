@@ -9,6 +9,8 @@ public class RomanNumeralsConverter {
                 return "II";
             case 3:
                 return "III";
+            case 5:
+                return "V";
             default:
                 return "";
         }
