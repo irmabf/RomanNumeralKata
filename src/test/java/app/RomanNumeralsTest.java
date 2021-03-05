@@ -32,4 +32,9 @@ public class RomanNumeralsTest {
         String result = converter.convert(5);
         assertEquals("V", result);
     }
+    @Test
+    public void shouldConvert4ToIV() {
+        String result = converter.convert(4);
+        assertEquals("IV", result);
+    }
 }
